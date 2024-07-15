@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback Form</title>
+   
+    <style>
+      
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #436abf;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #45a09e;
+}
+
+    </style>
+  </head>
+  <body class="container">
+    <h1 align="center"> FEEDBACK </h1>
+    <form >
+      <label  for="email">Enter your Email:</label>
+      <br>
+      <input class="textarea" type="email" id="email" name="email" required>
+      <br>
+      <br>
+      
+      <label for="password">Enter password:</label>
+      <br><br>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <input class="button" type="button" value="Login" onclick="validateForm()">
+      <br>
+      <h2>Give Feedback</h2>
+      <label for="textarea"></label>
+      <textarea id="textarea" name="textarea"></textarea>
+      <br>
+      <input class="button" type="button" value="Submit" name="button">
+    </form>
+    
+    <script>
+      function validateForm() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        
+        if (email == "" || password == "") {
+          alert("Email and password must be filled out");
+          return false;
+        }
+        alert("Form submitted successfully!");
+      }
+    </script>
+    
+  </body>
+</html>

@@ -1,0 +1,100 @@
+nav {
+  background-color: #6a6060;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: center;
+}
+
+nav a {
+  display: block;
+  color: rgb(252, 247, 247);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgb(24, 167, 180);
+}
+
+  
+  .main-heading {
+    font-family: 'CustomFont';
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00bfff;
+    text-shadow: 2px 2px #ffa500;
+    margin-bottom: 20px;
+  }
+  .main-heading {
+    font-size: 500px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e1e8eb;
+    text-shadow: 2px 2px #085968;
+    margin-bottom: 20px;
+    animation: heading-animation 2s ease-in-out;
+  }
+  
+  @keyframes heading-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('custom-font.ttf') format('truetype');
+  }
+  
+  
+  #food-image {
+    width: 200px;
+    height: auto;
+    border: 5px solid #413f3f;
+    border-radius: 10px;
+    box-shadow: 5px 5px #ddd;
+    margin: 20px auto;
+  }
+  body {
+    background-image: url("bodybuilder.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+ 
+  
+ 
+  .main-heading {
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #c9d4d8;
+    text-shadow: 2px 2px #37363a;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  div {
+    box-shadow: 0 0 10px rgba(236, 229, 229, 0.5);
+    padding: 20px;
+  }
+  

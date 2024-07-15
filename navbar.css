@@ -1,0 +1,56 @@
+.navbar-inverse {
+    background-color: #333333;
+    }
+    
+    .navbar-form {
+    border: none;
+    }
+    
+    .form-control {
+    border-radius: 20px;
+    }
+    
+    .btn-default {
+    border-radius: 20px;
+    background-color: #333333;
+    color: #ffffff;
+    }
+    
+    .btn-default:hover {
+    background-color: #ffffff;
+    color: #333333;
+    }
+    
+    /* Optional: Add a hover effect for the navigation links */
+    .navbar-nav li a:hover {
+    color: #ffffff;
+    background-color: #333333;
+    }
+    
+    /* Optional: Change the active link color */
+    .navbar-nav li.active a {
+    color: #ffffff;
+    background-color: #333333;
+    }
+    
+    /* Optional: Add a hover effect for the active link */
+    .navbar-nav li.active a:hover {
+    color: #333333;
+    background-color: #ffffff;
+    }
+    
+    /* Optional: Add a border to the search bar */
+    .navbar-form {
+    border: 1px solid #333333;
+    }
+    
+    /* Optional: Add a drop shadow to the search bar */
+    .navbar-form {
+    box-shadow: 2px 2px 5px #333333;
+    }
+    
+    /* Optional: Add a hover effect for the search button */
+    .btn-default:hover {
+    background-color: #333333;
+    color: #ffffff;
+    }

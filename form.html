@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <h1 id="text">Click, mouse over, or mouse out of this text to see the events in action.</h1>
+    <script>
+      let text = document.getElementById("text");
+      
+      text.addEventListener("click", function() {
+        text.style.backgroundColor = prompt("Please enter a color: ");
+      });
+      
+      text.addEventListener("mouseover", function() {
+        text.style.color = "red";
+      });
+      
+      text.addEventListener("mouseout", function() {
+        text.style.color = "black";
+      });
+    </script>
+  </body>
+</html>

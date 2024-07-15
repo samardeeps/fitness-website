@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VIPS</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Gujarati&family=Nunito&family=Roboto+Slab:wght@500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            color: rgb(232, 203, 255);
+            background: linear-gradient(-45deg, #cf6ac5, hsl(187, 98%, 23%), #09000b, #636aed);
+            background-size: 400% 400%;
+            animation: vips 15s ease infinite;
+            height: 100vh;
+            width: 100vw;
+            
+        }
+
+        @keyframes vips {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        #undr {
+            text-shadow: 2px 2px 10px rgb(255, 192, 255);
+            text-decoration: underline;
+        }
+
+        .navigation {
+            font-family: 'Bree Serif', serif;
+            font-size: 20px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        .container {
+            /* border: 2px solid red; */
+            height: 200vh;
+            width: 100vw;
+        }
+
+        div h1 {
+            text-align: center;
+            font-family: bree serif;
+            text-shadow: 2px 1px 10px rgb(255, 192, 255);
+        }
+
+        .boxes {
+            /* border: 2px solid rgb(56, 89, 250); */
+            margin: 10px;
+            height: 250px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Nunito', sans-serif;
+            
+        }
+
+        img {
+            height: 200px;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            margin-right: 12px;
+            box-shadow: -8px -10px 20px rgb(56, 44, 61);
+        }
+
+        .para {
+            font-family: 'Nunito', sans-serif;
+            padding: 5px;
+        }
+
+        h2 {
+            text-shadow: 2px 2px 10px rgb(255, 249, 255);
+            font-family: ubuntu;
+        }
+        
+        .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item" ><a href="home-page.html">Home</a></li>
+                <li class="item"> <div class="dropdown">
+                    <a href="">Diet</a>
+                    <div class="dropdown-content">
+                      <a href="high-cal.html">High Calorie meal</a>
+                      <a href="med-cal.html">Medium Calorie meal</a>
+                      <a href="low-cal.html">Low Calorie meal</a>
+                    </div>
+                  </div></li>
+                <li class="item"><a href="WTPage.html">Exercise</a></li>
+                <li class="item"><a href="contact us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1 id="undr">HIGH CALORIE MEALS</h1>
+    </div>
+    <section>
+        <div class="container">
+            <h2>1. Vegan Cobb Salad Recipe</h2>
+            <div class="boxes">
+                <img src="a1.jpg" alt="">
+                <p class="para">Looking for some vegan eats to gain weight and increase muscle? This salad should do the trick.
+
+                  It’s yummy and super filling- it’s nothing like your typical salad. It’s packed with seitan “chicken”, bacon-flavored chickpeas, and creamy avocado.
+                  
+                  And let’s not forget about the veggies. You have 5 different veggies: romaine lettuce, carrots, cherry tomatoes, sweet corn, and red cabbage.
+                  
+                  So, you have tons of added nutrition too. The homemade vegan ranch dressing is the icing on top of the cake, ahem, salad.
+                  
+                  What you’ll love about this salad is that it contains a ton of protein. Just one serving contains a whopping 104 grams of protein.
+                  
+                  A lot of this protein comes from the seitan. Seitan is a vegan substitute made from vital wheat gluten.
+                  
+                  Besides being high in protein, seitan is also rich in selenium, a powerful antioxidant.
+                  
+                  Now, you can buy seitan already made at your local health food store. But to save money, you can make your own if you have some vital wheat gluten on hand.<iusto class="lorem32"></iusto>
+                </p>
+            </div>
+            <h2>2. Cauliflower Mac & Cheese With Chicken Thighs
+            </h2>
+            <div class="boxes">
+                <img src="a2.webp" alt="">
+                <p class="para">Life can be stressful. And when stress hits, all you want to do is kick back and chomp on some good old comfort food.
+
+                  But the very definition of comfort food is carbs and more carbs. And this is a problem if you’re on a low carb diet.
+                  
+                  This cauliflower mac & cheese dish is a great low carb alternative to traditional mac & cheese. One serving contains only 7 grams of net carbs.
+                  
+                  It’s creamy, comforting, and has nicely seared crispy skin-on chicken thighs. Yum!
+                  
+                  In fact, I prefer this dish to the traditional mac & cheese because the cauliflower adds a lot of freshness.
+                  
+                  Besides being low in carbs, cauliflower is pretty nutritious too.
+                  
+                  Cauliflower is an excellent source of vitamin C, which helps boost your immune system.
+                  
+                  It is also rich in the antioxidant sulforaphane, which has many health benefits.
+                  
+                  Besides being tasty, this dish is also easy to make. In fact, all it takes is only 30 minutes, and you have dinner on the table.<iusto class="lorem32"></iusto>
+                </p>
+            </div>
+            <h2>
+              3. Salmon Meal Prep With Veggies
+            </h2>
+            <div class="boxes">
+                <img src="a3.webp" alt="">
+                <p class="para">Besides veggies, fish is another food we should be eating more of. That’s because fish, particularly fatty fish like salmon, contains lots of omega-3s.
+
+                  Omega-3s are good not only for your heart but your brain too. So, pile on that fish.
+                  
+                  This salmon meal prep dish is as good to look at, as it is to eat. The sweetness of the beets and sweet potatoes plays off the meatiness of the salmon… It’s a match made in foodie heaven.
+                  
+                  Besides being tasty and nutritious, this dish is also perfect for meal prep. All you need is 10 minutes of prep time, and then you let your oven do the baking… Easy, peasy.
+                  
+                  To keep your food fresh longer, just make sure to store it in airtight food storage containers. I recommend these ones because they are sustainable that will leak into your food.
+                  
+                 <iusto class="lorem32"></iusto>
+                </p>
+            </div>
+            <h2>4. Steak Fajita Salad</h2>
+            <div class="boxes">
+                <img src="a4.webp" alt="">
+                <p class="para"> Looking for a tasty way to enjoy your veggies? Have some steak fajita salad… After all, everything tastes better with steak, right?
+
+                  This steak fajita salad is packed with flavor. That’s because you use a ton of spices for the steak rub; 8 to be exact.
+                  
+                  So, you definitely won’t need any barbecue sauce to ramp up the flavor. And the veggies are tasty too… That’s because you saute them in steak grease. Yum!
+                  
+                  And let’s not forget about the homemade cilantro lime vinaigrette. It’s so good… Much better than that bottled stuff.
+                  
+                  Besides being delicious, this salad is good for you too. One serving provides a whopping 40% of your daily fiber needs.
+                  
+                  And since it takes only 30 minutes to make, it’s perfect for those busy weeknights. Bon appetit!<iusto class="lorem32"></iusto>
+                </p>
+            </div>
+            <h2>
+              5. German Hunter Cabbage Stew
+          </h2>
+          <div class="boxes">
+              <img src="a5.webp" alt="">
+              <p class="para">When it’s cold outside, all you want to do is sit by the fireplace. And eat some stick-to-your-ribs stew.
+
+                This cabbage stew is pretty hearty. That’s because it’s packed with bacon, kielbasa sausage, and ground beef.
+                
+                It’s also packed with cabbage. Cabbage is an excellent source of vitamins C and K.
+                
+                It also contains several antioxidants that may help reduce inflammation. So, eat up that cabbage!
+                
+                What I love most about this dish is that it’s a one-pot dish. So, you don’t have a ton of pots and pans to wash at the end.
+                
+                Now, this dish contains ground beef, which has a high carbon footprint. So, you may want to eat it less often, or use ground pork instead. <iusto class="lorem32"></iusto>
+              </p>
+          </div>
+          <h2>6. Pecan Chicken Recipe</h2>
+          <div class="boxes">
+              <img src="a6.webp" alt="">
+              <p class="para">I’m a big fan of chicken, as I’m sure many of you are too. But, after a while, chicken can get kind of boring.
+
+                So, if you’re looking to jazz up your chicken dinners, this is a great option.
+                
+                Juicy, tender chicken breasts are coated in crispy crushed pecans, along with warm spices such as nutmeg, ginger, and paprika.
+                
+                
+                Accompanied with creamy, buttery cauliflower mash and lightly seasoned, roasted sweet potato wedges.
+                
+                It’s truly a party for your taste buds. And not only will your tummy be happy, but your immune system will also be happy too.
+                
+                That’s because this dish contains tons of Vitamin A and Vitamin C, which help boost your immune system. It even provides a good dose of calcium too.
+                
+                This dish is quite well rounded, so it makes for a great Sunday night dinner. Winner, winner, chicken dinner.<iusto class="lorem32"></iusto>
+              </p>
+          </div>
+          <h2>
+            7. 30-Minute Pork Fajita Bowls
+        </h2>
+        <div class="boxes">
+            <img src="a7.webp" alt="">
+            <p class="para" >We all live busy lives, me included. So, the last thing you want to do at the end of a long day is a slave in the kitchen.
+
+            These pork fajita bowls are ready in a jiffy. They take under 30 minutes to make- 27 to be exact.
+            
+            These Fajita Bowls scream Tex-Mex. You have nicely sauteed pork chop strips along with sauteed green, yellow, and red bell peppers.
+            
+            All served with creamy avocado slices and jalapeno peppers. Not a fan of the heat? Just skip the jalapenos.
+            
+            What I love most about this dish is that it’s a one-skillet dish. So, once you’re done eating, you can just kick back and relax.
+            
+            <iusto class="lorem32"></iusto>
+            </p>
+        </div>
+        <h2>8. Korean Seitan Sandwich
+        </h2>
+        <div class="boxes">
+            <img src="a8.webp" alt="">
+            <p class="para">Do you like all things spicy? Then given this Korean Seitan sandwich a try.
+
+              The seitan “steak” strips are super flavorful. They have a nice balance of sweet, savory, umami, and heat.
+              
+              The vegan kimchi adds extra spiciness. Your mouth will be on fire… In a good way.
+              
+              
+              
+              Besides being tasty, kimchi is very nutritious. Kimchi is rich in a number of vitamins and minerals, including Vitamins K and C, iron, and folate.
+              
+              It also contains probiotics which have many health benefits.
+              
+              You can get kimchi at Korean supermarkets. When buying it, beware: it often contains fish sauce.
+              
+              So, if you want vegan kimchi, make sure you read the label properly. <iusto class="lorem32"></iusto>
+            </p>
+        </div>
+      </div>
+      <br>
+      
+    </section>
+    
+
+</body>
+
+</html>
